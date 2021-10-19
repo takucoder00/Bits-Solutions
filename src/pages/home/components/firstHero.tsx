@@ -5,83 +5,22 @@ import { Link } from 'react-router-dom';
 export default function firstHeroHome() {
   return (
     <div className="firstHero">
-        <section>
-<div className="relative bg-white overflow-hidden">
-    <div className="max-w-7xl mx-auto">
-      <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
-        <svg className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2" fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
-          <polygon points="50,0 100,0 50,100 0,100" />
-        </svg>
-
-        <div>
-          <div className="relative pt-6 px-4 sm:px-6 lg:px-8">
-
-          </div>
-
-          {/* <div className="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-            <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
-              <div className="px-5 pt-4 flex items-center justify-between">
-                <div>
-                  <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt=""></img>
-                </div>
-                <div className="-mr-2">
-                  <button type="button" className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
-                    <span className="sr-only">Close main menu</span>
-                   
-                    <svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                    </svg>
-                  </button>
-                </div>
-              </div>
-              <div className="px-2 pt-2 pb-3 space-y-1">
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Product</a>
-
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Features</a>
-
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Marketplace</a>
-
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Company</a>
-              </div>
-              <a href="#" className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100">
-                Log in
-              </a>
-            </div>
-          </div> */}
-        </div>
-
-        <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-          <div className="sm:text-center lg:text-left">
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-              <span className="block xl:inline">Tap into </span>
-              <span className="block text-green-600 xl:inline">endless possibilities</span>
-            </h1>
-            <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-            Bamboo is the fastest growing woody plant on earth.It's renewable resource, it produces up to 35% more oxygen than hardwood trees and absorbs 4 TIMES as much carbon!
-            <br />
-            Bamboo has natural anti-bacterial and anti-fungal properties. Do you know that its shoots are edible and delicious?
-            </p>
-            <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
-              <div className="rounded-md shadow">
-                <a href="#inspiration" className="w-full flex items-center py-2 justify-center px-8 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 md:py-2 md:text-lg md:px-5">
-                  Inform Me
-                </a>
-              </div>
-              <div className="mt-3 sm:mt-0 sm:ml-3">
-                <Link to='/contact' className="w-full flex items-center py-2 justify-center px-8  border border-transparent text-base font-medium rounded-md text-green-700 bg-green-100 hover:bg-green-200 md:py-2 md:text-lg md:px-5">
-                  Find Out More
-                </Link>
-              </div>
-            </div>
-          </div>
-        </main>
+        <section className="text-gray-600 body-font">
+  <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+    <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+      <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Before they sold out
+        <br className="hidden lg:inline-block"/>readymade gluten
+      </h1>
+      <p className="mb-8 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+      <div className="flex justify-center">
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
       </div>
     </div>
-    <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-      <img className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://www.mccue.com/hs-fs/hubfs/Bamboo.jpeg?width=1600&name=Bamboo.jpeg" alt=""></img>
+    <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+      <img className="object-cover object-center rounded" alt="hero" src="https://images.pexels.com/photos/8005397/pexels-photo-8005397.jpeg?cs=srgb&dl=pexels-emmanuel-ikwuegbu-8005397.jpg&fm=jpg"/>
     </div>
   </div>
-
 </section>
 
     </div>

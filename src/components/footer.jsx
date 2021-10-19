@@ -125,9 +125,9 @@ export default function Footer() {
       <div className="container px-5 py-6 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
           <AppLogo />
-          <span className="ml-3 text-green-500 text-xl">Mutenga Bamboo</span>
+          <span className="ml-3 text-green-500 text-xl">Scoufy</span>
         </a>
-        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© { currentYear } Mutenga Bamboo —
+        <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© { currentYear } Scoufy Private Limited —
           <a href="https://blckmedia.co.zw" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">BLCK Creative Studios</a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">

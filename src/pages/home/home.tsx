@@ -6,6 +6,7 @@ import Testimonials from './components/testimonials';
 import BlogSection from './components/blogSection';
 import Base from '../base';
 import Services from './components/services';
+import { Steps } from '../steps/step';
 
 
 export default function Home() {
@@ -14,7 +15,8 @@ export default function Home() {
     <Base>
       <div className="Home">
         <FirstHero />
-        <Benefits />
+        {/* <Benefits /> */}
+        <Steps/>
         <Services/>
         <Inspiration />
         <Testimonials />
