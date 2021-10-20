@@ -3,157 +3,94 @@ import { Link } from 'react-router-dom';
 
 
 export default function Services() {
-  return (
-    <>
-    <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
-            <div className="flex flex-col text-center w-full mb-20">
-                <h1 className="text-2xl font-medium tracking-wide text-gray-800 dark:text-white lg:text-4xl">Our Products and Services</h1>
-            </div>
-            <div className="flex flex-wrap -m-4">
-                <div className="p-4 md:w-1/3">
-                    <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                        <div className="flex items-center mb-3">
-                            <div
-                                className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" width="44" height="44"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M16.5 15a4.5 4.5 0 0 0 -4.5 4.5m4.5 -8.5a4.5 4.5 0 0 0 -4.5 4.5m4.5 -8.5a4.5 4.5 0 0 0 -4.5 4.5m-4 3.5c2.21 0 4 2.015 4 4.5m-4 -8.5c2.21 0 4 2.015 4 4.5m-4 -8.5c2.21 0 4 2.015 4 4.5m0 -7.5v6" />
-                                </svg>
-                            </div>
-                            <h2 className="text-gray-900 text-lg title-font font-medium">Farming Bamboo</h2>
-                        </div>
-                        <div className="flex-grow">
-                            <p className="leading-relaxed text-base">One of the best ways to fully understand plants it is to grow it observe it. At Mutenga Bamboo we grow bamboo</p>
-                            <Link to="/contact" className="mt-3 text-green-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                    <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                        <div className="flex items-center mb-3">
-                            <div
-                                className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
-                                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10">
+    return (
+        <>
+            <section id="services" className="text-gray-600 body-font">
+                <div className="container max-w-6xl mx-auto">
+                    <h2 className="text-4xl font-bold tracking-tight text-center text-gray-900">Our Services</h2>
+                    <p className="mt-2 text-lg text-center text-gray-600">Our goal is to enhance business performance and help our clients in the best way
+                        we can.</p>
+                    <div className="grid grid-cols-4 gap-8 mt-10 sm:grid-cols-8 lg:grid-cols-12 sm:px-8 xl:px-0">
+
+                        <div className="relative flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 overflow-hidden bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z">
                                     </path>
                                 </svg>
                             </div>
-                            <h2 className="text-gray-900 text-lg title-font font-medium">Sourcing and Supply</h2>
+                            <h4 className="text-xl font-medium text-gray-900">Business Solutions</h4>
+                            <p className="text-base text-center text-gray-500">We provide value-adding business solutions to
+                                enterprises nationwide.</p>
                         </div>
-                        <div className="flex-grow">
-                            <p className="leading-relaxed text-base">Do you want some bamboo? We find it and supply it for you</p>
-                            <Link to="/contact" className="mt-3 text-green-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                    <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                        <div className="flex items-center mb-3">
-                            <div
-                                className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" width="44" height="44"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M4 21c1.147 -4.02 1.983 -8.027 2 -12h6c.017 3.973 .853 7.98 2 12" />
-                                    <path d="M12.5 13h4.5c.025 2.612 .894 5.296 2 8" />
-                                    <path
-                                        d="M9 5a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1a2.4 2.4 0 0 0 2 1a2.4 2.4 0 0 0 2 -1a2.4 2.4 0 0 1 2 -1a2.4 2.4 0 0 1 2 1" />
-                                    <line x1="3" y1="21" x2="22" y2="21" />
+
+                        <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z">
+                                    </path>
                                 </svg>
                             </div>
-                            <h2 className="text-gray-900 text-lg title-font font-medium">Production of Bamboo products
-                            </h2>
+                            <h4 className="text-xl font-medium text-gray-900">Business Marketing</h4>
+                            <p className="text-base text-center text-gray-500">We provide proven marketing strategies that helps
+                                your business to sell!.</p>
                         </div>
-                        <div className="flex-grow">
-                            <p className="leading-relaxed text-base">We dont just speak about the commercialization of bamboo, we are walking the talk. Check out our shop</p>
-                            <Link to="/shop" className="mt-3 text-green-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                    <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                        <div className="flex items-center mb-3">
-                            <div
-                                className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" width="44" height="44"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M3 12h1m8 -9v1m8 8h1m-15.4 -6.4l.7 .7m12.1 -.7l-.7 .7" />
-                                    <path
-                                        d="M9 16a5 5 0 1 1 6 0a3.5 3.5 0 0 0 -1 3a2 2 0 0 1 -4 0a3.5 3.5 0 0 0 -1 -3" />
-                                    <line x1="9.7" y1="17" x2="14.3" y2="17" />
+
+                        <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z">
+                                    </path>
                                 </svg>
                             </div>
-                            <h2 className="text-gray-900 text-lg title-font font-medium">Consultancy, Management, and
-                                Advisory Services</h2>
+                            <h4 className="text-xl font-medium text-gray-900">Business Networking</h4>
+                            <p className="text-base text-center text-gray-500">We establish mutually beneficial relationships with
+                                other businesses and potential clients or customers.</p>
                         </div>
-                        <div className="flex-grow">
-                            <p className="leading-relaxed text-base">We provide consultancy, management and advisory services that suits your business needs </p>
-                            <Link to="/contact" className="mt-3 text-green-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
-                                </svg>
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-                <div className="p-4 md:w-1/3">
-                    <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-                        <div className="flex items-center mb-3">
-                            <div
-                                className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-green-500 text-white flex-shrink-0">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" width="44" height="44"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M14 3v4a1 1 0 0 0 1 1h4" />
-                                    <path d="M12 21h-5a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v4.5" />
-                                    <circle cx="16.5" cy="17.5" r="2.5" />
-                                    <line x1="18.5" y1="19.5" x2="21" y2="22" />
+
+                        <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21v-4m0 0V5a2 2 0 012-2h6.5l1 1H21l-3 6 3 6h-8.5l-1-1H5a2 2 0 00-2 2zm9-13.5V9">
+                                    </path>
                                 </svg>
                             </div>
-                            <h2 className="text-gray-900 text-lg title-font font-medium">Research and Training
-                            </h2>
+                            <h4 className="text-xl font-medium text-gray-900">Business Branding</h4>
+                            <p className="text-base text-center text-gray-500">We help your customers to recognise, identify and
+                                experience your business.</p>
                         </div>
-                        <div className="flex-grow">
-                            <p className="leading-relaxed text-base">We are always finding many ways in which the bamboo
-                                can benefit the society. We also provide training.</p>
-                            <Link to="/contact" className="mt-3 text-green-500 inline-flex items-center">Learn More
-                                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+
+                        <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+                                    <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z">
+                                    </path>
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222">
+                                    </path>
                                 </svg>
-                            </Link>
+                            </div>
+                            <h4 className="text-xl font-medium text-gray-900">Business Education</h4>
+                            <p className="text-base text-center text-gray-500">As Bits Solutions we provides education that helps
+                                you to firmly establish your brand.</p>
                         </div>
+
+
+                        <div className="flex flex-col items-center justify-between col-span-4 px-8 py-12 space-y-4 bg-gray-100 sm:rounded-xl">
+                            <div className="p-3 text-white bg-orange-500 rounded-full">
+                                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h4 className="text-xl font-medium text-gray-900">Support Services</h4>
+                            <p className="text-base text-center text-gray-500">We also offer many business supportservices.</p>
+                        </div>
+
+
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-    </>
-  );
+            </section>
+        </>
+    );
 }
