@@ -1,5 +1,6 @@
 import React from 'react';
 import FirstHero from './components/firstHero';
+import SecondHero from './components/secondHero';
 import Benefits from './components/benefits';
 import Inspiration from './components/inspiration';
 import Testimonials from './components/testimonials';
@@ -16,9 +17,10 @@ export default function Home() {
       <div className="Home">
         <FirstHero />
         {/* <Benefits /> */}
+        <SecondHero />
         <Steps/>
         <Services/>
-        <Inspiration />
+        {/* <Inspiration /> */}
         <Testimonials />
         {/* <BlogSection /> */}
       </div>

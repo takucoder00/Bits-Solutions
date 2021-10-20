@@ -14,7 +14,7 @@ export default function Testimonials() {
             </svg>
             <p className="leading-relaxed mb-6">The installation was absolutely painless and was like watching “a symphony”, just the most amazing teamwork and I never ever imagined you could achieve all that in just two days. We are thrilled with our new deck and have had so many compliments to date.</p>
             <a className="inline-flex items-center">
-            <div className="w-12 h-12 bg-green-600 bg-blend-overlay rounded-full flex-shrink-0 object-cover object-center"/>
+            <div className="w-12 h-12 bg-orange-600 bg-blend-overlay rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
                 <span className="title-font font-medium text-gray-900">Glynis Mayer</span>
                 {/* <span className="text-gray-500 text-sm">UI DEVELOPER</span> */}
@@ -29,7 +29,7 @@ export default function Testimonials() {
             </svg>
             <p className="leading-relaxed mb-6">This has been a hassle-free exercise. I appreciate the outstanding workmanship, attention to detail and the spotless and neat condition your team left my place in. The floors are looking beautiful and I can’t wait to have the rest of the apartment done.</p>
             <a className="inline-flex items-center">
-              <div className="w-12 h-12 bg-green-600 bg-blend-overlay rounded-full flex-shrink-0 object-cover object-center"/>
+              <div className="w-12 h-12 bg-orange-600 bg-blend-overlay rounded-full flex-shrink-0 object-cover object-center"/>
               <span className="flex-grow flex flex-col pl-4">
                 <span className="title-font font-medium text-gray-900">Brighton Shamu</span>
                 {/* <span className="text-gray-500 text-sm">DESIGNER</span> */}
