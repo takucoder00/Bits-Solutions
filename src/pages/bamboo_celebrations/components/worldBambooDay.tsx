@@ -68,7 +68,7 @@ World Bamboo Day is a day of celebration to increase the awareness of bamboo glo
       It is environmentally friendly as it
 produces 35% more oxygen than many trees and is a good carbon sink as its sequestration
 properties are excellent. Bamboo species range to over 1500 and bamboo has over 19 000
-uses and Mutenga Bamboo will explore ways to add value to this magic plant.
+uses and Bitssolutions will explore ways to add value to this magic plant.
       </p>
     </div>
   </div>

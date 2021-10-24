@@ -10,6 +10,11 @@ export default function firstHeroHome() {
   'OBackgroundSize': 'cover', 
   'backgroundSize': 'cover'}
 
+
+  const onGetChampioned = () => {
+    window.location.href = "https://wa.me/263774267438?text=Hi+i+have+a+business+and+i+need+help+with";
+  }
+
   return (
     <div>
       <div className="firstHero" style={heroBackgroundStyle}>
@@ -25,10 +30,10 @@ export default function firstHeroHome() {
                     that!.</div>
                 <div className="flex flex-col items-center mt-12 text-center">
                     <span className="relative inline-flex w-full md:w-auto">
-                    <a href="#" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-orange-500 rounded-md sm:mb-0 hover:bg-orange-700 sm:w-auto">
+                    <button onClick={onGetChampioned} className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-orange-500 rounded-md sm:mb-0 hover:bg-orange-700 sm:w-auto">
                                 Get Championed
                                 <svg className="ml-3 w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path></svg>
-                            </a>
+                            </button>
                 </span></div>
             </div>
         </div>

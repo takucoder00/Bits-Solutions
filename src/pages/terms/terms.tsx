@@ -15,12 +15,12 @@ export default function Terms() {
                                     <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto" >
                                         General terms and conditions</h2>
                                     <h3 className="text-center text-gray-500" >General
-                                        terms and conditions of delivery and payment of Mutenga Bamboo</h3>
+                                        terms and conditions of delivery and payment of Bitssolutions</h3>
                                     
                                         <h2 className="font-bold text-md pt-5 pb-3">CLAUSE 1: APPLICABILITY</h2>
                                     <ol className="list-decimal">
                                         <li>These terms and conditions shall apply to all offers and to all purchase and
-                                            sale agreements of Mutenga Bamboo,
+                                            sale agreements of Bitssolutions,
                                             hereinafter referred to as “the user”.</li>
                                         <li>The purchaser or the client, as the case may be, shall hereinafter be
                                             referred to as “the other party”. Should a provision below specifically
