@@ -23,7 +23,7 @@ function App() {
 
   useEffect(() => {
 
-    document.title = "Mutenga Bamboo"
+    document.title = "Bitssolutions"
     
   
   })

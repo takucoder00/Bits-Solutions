@@ -111,7 +111,7 @@ export default function Footer() {
                     </div>
 
                 </div>
-        <div class="px-4 mt-8 sm:w-1/2 md:w-1/4 xl:w-1/6 md:mt-0">
+        {/* <div class="px-4 mt-8 sm:w-1/2 md:w-1/4 xl:w-1/6 md:mt-0">
                     <h5 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SOCIAL MEDIA</h5>
 
              
@@ -150,7 +150,7 @@ export default function Footer() {
                     </div>
 
 
-                </div>
+                </div> */}
         <div className="lg:w-2/4 md:w-1/2 w-full px-4">
           {/* <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">SUBSCRIBE</h2>
           <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">

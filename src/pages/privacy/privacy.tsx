@@ -10,7 +10,7 @@ export default function Privacy() {
                 <div className="content wp-editor full">
                     <div className="desc clrfix">
                         <h1 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">Privacy and Cookies</h1>
-                        <p className="text-align-center">For Mutenga Bamboo, the protection of personal data is
+                        <p className="text-align-center">For Bitssolutions, the protection of personal data is
                             of great importance. We collect, process and use your personal data within the scope of your
                             request and to provide you the best service possible. Below we would like to inform you
                             about the processing we do.</p>
@@ -54,7 +54,7 @@ export default function Privacy() {
                             receiving it, unless we store your information for ordering processes. You may at any time
                             demand information on the data stored about you as well as the correction or deletion of
                             incorrect data. Please address your objections, requests for information or deletion to:</p>
-                        <p className="text-align-center">Mutenga Bamboo<br/></p>
+                        <p className="text-align-center">Bitssolutions<br/></p>
                         
                     </div>
                 </div>
