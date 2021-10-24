@@ -21,26 +21,29 @@ export default function ContactForm() {
   })
 
   const sendContactMessage = () => {
+
+    const wholeMessage = `*Topic:* \n${topic}\n\n*Name:* \n${userName}\n\nEmail: \n${userEmail}\n\nMessage:\n${userMessage}`
+    window.location.href = "https://wa.me/263774267438?text=" + encodeURIComponent(wholeMessage);
     
-    axios.get(siteEndpoint + 'sanctum/csrf-cookie')
-    .then(res => {
+    // axios.get(siteEndpoint + 'sanctum/csrf-cookie')
+    // .then(res => {
 
-      axios.post(siteEndpoint + 'api/contact', 
-      {
-        topic: topic,
-        name: userName,
-        email: userEmail,
-        message: userMessage,
-        extras: userExtras,
-        phone: userPhone
+    //   axios.post(siteEndpoint + 'api/contact', 
+    //   {
+    //     topic: topic,
+    //     name: userName,
+    //     email: userEmail,
+    //     message: userMessage,
+    //     extras: userExtras,
+    //     phone: userPhone
 
-      }).then(res => {
-        let respData = res.data
-        if(respData.status === "success") {
-          openSnackbar(respData.message)   
-        }
-      }) 
-    });
+    //   }).then(res => {
+    //     let respData = res.data
+    //     if(respData.status === "success") {
+    //       openSnackbar(respData.message)   
+    //     }
+    //   }) 
+    // });
   }
 
   
@@ -67,7 +70,7 @@ export default function ContactForm() {
     </div>
     <div className="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
       <h2 className="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
-      <p className="leading-relaxed mb-5 text-gray-600">Do you have any question or suggestion? Say hello to Mutenga Bamboo</p>
+      <p className="leading-relaxed mb-5 text-gray-600">Do you have any question or suggestion? Say hello to Bitssolutions</p>
       <div className="relative mb-4">
         <label htmlFor="topic" className="leading-7 text-sm text-gray-600">Topic</label>
         <select id="topic" name="topic" value={topic} onChange={(e) => setTopic(e.target.value)} className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">

@@ -1,6 +1,11 @@
 import React from 'react'
 
 export default function secondHero() {
+
+    const onWorkWithUs = () => {
+        window.location.href = "https://wa.me/263774267438?text=Hi+i+have+a+business+and+i+need+help+with";
+      }
+
     return (
         <div>
             <div className="px-2 py-32 bg-white md:px-0">
@@ -20,13 +25,13 @@ export default function secondHero() {
 
                         <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl"></p>
                         <div className="relative flex flex-col sm:flex-row sm:space-x-4">
-                            <a href="#" className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-orange-500 rounded-md sm:mb-0 hover:bg-orange-700 sm:w-auto">
+                            <button onClick={onWorkWithUs} className="flex items-center w-full px-6 py-3 mb-3 text-lg text-white bg-orange-500 rounded-md sm:mb-0 hover:bg-orange-700 sm:w-auto">
                                 Work with us!
                                 <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                     <line x1="5" y1="12" x2="19" y2="12"></line>
                                     <polyline points="12 5 19 12 12 19"></polyline>
                                 </svg>
-                            </a>
+                            </button>
 
                         </div>
                     </div>
