@@ -6,7 +6,9 @@ import Layout from '../components/Layout'
 
 export default function BusinessSystems() {
     return (
-        <Layout>
+        <Layout
+        title="Bitssolutions | Business Systems"
+       desc="We provide business systems that allows your business to standout and beat your competition.">
             <BusinessHero/>
             <BusinessAreas/>
             <JoinOurBusiness/>

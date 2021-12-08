@@ -12,7 +12,9 @@ import Layout from '../components/Layout';
 export default function Home() {
  
   return (
-    <Layout>
+    <Layout 
+       title="Bitssolutions | Home | Get business solutions"
+       desc="We offer a wide range of services which include business solutions, business networking, business marketing, business branding and business education.">
       <div className="Home">
         <FirstHero />
         <SecondHero />
