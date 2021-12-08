@@ -19,7 +19,10 @@ module.exports = {
         gray: {
           custom: "#d8d9db"
         },
-      }
+      },
+      spacing: {
+        128: '32rem',
+      },
     },
   },
   variants: {
