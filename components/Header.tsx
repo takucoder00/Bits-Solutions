@@ -19,7 +19,7 @@ const Header = () => {
             
                 <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href="/">Home</Link></div>
                 <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href="/business-systems">Business Systems</Link></div>
-                <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href="/blog">Blog</Link></div>
+                {/* <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href="/blog">Blog</Link></div> */}
                 <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href='/about'>About</Link></div>
                 <div className="mr-5 hover:border-b-2 hover:border-orange-500 px-3"><Link href='/contact'>Contact</Link></div>
           
