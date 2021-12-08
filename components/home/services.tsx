@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-
 
 export default function Services() {
     return (
@@ -84,7 +82,7 @@ export default function Services() {
                                 </svg>
                             </div>
                             <h4 className="text-xl font-medium text-gray-900">Support Services</h4>
-                            <p className="text-base text-center text-gray-500">We also offer many business supportservices.</p>
+                            <p className="text-base text-center text-gray-500">We also offer many business support services.</p>
                         </div>
 
 

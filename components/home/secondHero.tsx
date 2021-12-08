@@ -18,7 +18,7 @@ export default function secondHero() {
                             <span className="block text-orange-600 xl:inline">is a pleasure!</span>
                         </h1>
                         <p className="mx-auto text-base text-gray-500 sm:max-w-md lg:text-xl md:max-w-3xl"><span className="italic">Running a business has
-                                never been easy</span>, Bits Solutions is company that offers business consultancy
+                                never been easy</span>, Bits Solutions is company that offers business
                             services. We offer a wide
                             range of services which include business solutions, business networking, business
                             marketing, business branding and business education. </p>
