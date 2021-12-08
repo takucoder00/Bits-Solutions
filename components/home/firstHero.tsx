@@ -1,4 +1,5 @@
 import React from 'react';
+import { onGetChampioned } from '../../utils/helpers';
 
 
 export default function firstHeroHome() {
@@ -10,9 +11,6 @@ export default function firstHeroHome() {
   'backgroundSize': 'cover'}
 
 
-  const onGetChampioned = () => {
-    window.location.href = "https://wa.me/263774267438?text=Hi+i+have+a+business+and+i+need+help+with";
-  }
 
   return (
     <div>
