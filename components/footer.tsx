@@ -51,6 +51,9 @@ export default function Footer() {
               <Link href='/' >Home</Link>
             </li>
             <li className="text-gray-600 hover:text-gray-800">
+              <Link href='/business-systems' >Business Systems</Link>
+            </li>
+            <li className="text-gray-600 hover:text-gray-800">
               <Link href="/about#about" >About</Link>
             </li>
             <li className="text-gray-600 hover:text-gray-800">
@@ -114,7 +117,7 @@ export default function Footer() {
               <label htmlFor="footer-field" className="leading-7 text-sm text-gray-600">Email</label>
               <input value={email} onChange={(event) => setEmail(event.target.value)} type="text" id="footer-field" name="footer-field" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-orange-200 focus:border-orange-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
             </div>
-            <button onClick={handleSubscribe} className="lg:mt-2 lg:ml-3 xl:mt-0 mt-3 flex-shrink-0 inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded">Subscribe</button>
+            <button onClick={handleSubscribe} className="lg:mt-2 xl:mt-0 mt-3 flex-shrink-0 inline-flex text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded">Subscribe</button>
           </div>
           <p className="text-gray-500 text-sm mt-2 md:text-left text-center">Recieve offers, news and tips
             <br className="lg:block hidden"/>in your inbox
@@ -131,7 +134,7 @@ export default function Footer() {
           <span className="ml-3 text-orange-500 text-xl">Bitssolutions</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-6 sm:mt-0 mt-4">© { currentYear } BittsSolutions Private Limited —
-          <a href="https://taku.co.zw" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">taku</a>
+          {/* <a href="https://taku.co.zw" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">taku</a> */}
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
           <a className="text-gray-500">
@@ -139,7 +142,7 @@ export default function Footer() {
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
-          <a href="https://twitter.com/Bamboopreneur" target="_blank" rel="noreferrer" className="ml-3 text-gray-500">
+          <a href="#" target="_blank" rel="noreferrer" className="ml-3 text-gray-500">
             <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
               <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
             </svg>
