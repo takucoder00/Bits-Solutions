@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
@@ -19,7 +19,10 @@ module.exports = {
         gray: {
           custom: "#d8d9db"
         },
-      }
+      },
+      spacing: {
+        128: '32rem',
+      },
     },
   },
   variants: {
